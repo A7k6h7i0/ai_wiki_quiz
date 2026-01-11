@@ -24,6 +24,7 @@ router = APIRouter(prefix="/api/quiz", tags=["Quiz"])
 
 @router.post("/generate", response_model=QuizResponse, status_code=status.HTTP_201_CREATED)
 async def generate_quiz(request: QuizGenerateRequest, db: Session = Depends(get_db)):
+    print(f"DEBUG: Generate request received for URL: {request.url}") # ADD THIS
     """
     Generate a new quiz from Wikipedia URL.
     
@@ -114,6 +115,7 @@ async def generate_quiz(request: QuizGenerateRequest, db: Session = Depends(get_
 
 @router.get("/history", response_model=List[QuizListItem])
 async def get_quiz_history(db: Session = Depends(get_db)):
+    
     """
     Get list of all past quizzes.
     Returns summary information for history table.

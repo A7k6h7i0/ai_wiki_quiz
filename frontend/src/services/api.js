@@ -11,7 +11,7 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-  timeout: 60000, // 60 second timeout for LLM processing
+  timeout: 120000, // 60 second timeout for LLM processing
 });
 
 /**
