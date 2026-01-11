@@ -10,7 +10,8 @@ python-dotenv==1.0.0
 requests==2.31.0
 beautifulsoup4==4.12.2
 
-langchain-core==1.2.7
-langchain-google-genai==4.1.3
-google-genai==1.57.0
-anyio==3.7.1
+langchain-core>=1.2.7
+langchain-google-genai>=1.0.0
+
+# Force compatibility
+anyio>=3.7.1,<4.0.0
