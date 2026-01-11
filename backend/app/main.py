@@ -17,6 +17,13 @@ app = FastAPI(
     redoc_url="/redoc"  # ReDoc UI
 )
 
+origins = [
+    "http://localhost:3000",
+    "http://localhost:8000",
+    "https://ai-wiki-quiz-pb1v.vercel.app",  # 👈 ADD THIS
+    "https://*.vercel.app",                   # 👈 ADD THIS (allows all Vercel previews)
+]
+
 # Configure CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
