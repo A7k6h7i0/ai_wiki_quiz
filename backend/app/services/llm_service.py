@@ -4,7 +4,7 @@ Generates quiz questions and related topics from Wikipedia content.
 """
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from app.config import settings
 from typing import Dict, List, Any
 import json
