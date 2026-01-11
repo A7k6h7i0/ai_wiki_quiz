@@ -1,0 +1,30 @@
+{
+  "id": 3,
+  "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
+  "title": "Albert Einstein",
+  "summary": "Albert Einstein was a German-born theoretical physicist who is widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, Einstein also made important contributions to quantum mechanics, and was thus a central figure in the revolutionary reshaping of the scientific understanding of nature.",
+  "key_entities": {
+    "people": ["Albert Einstein", "Max Planck", "Niels Bohr"],
+    "organizations": ["Institute for Advanced Study", "University of Berlin", "Princeton University"],
+    "locations": ["Germany", "Switzerland", "United States", "Princeton"]
+  },
+  "sections": ["Early life", "Education", "Career", "Scientific achievements", "Theory of relativity", "Nobel Prize", "Later years", "Legacy"],
+  "quiz": [
+    {
+      "question": "What is Albert Einstein best known for?",
+      "options": ["Quantum mechanics", "Theory of relativity", "Atomic bomb", "String theory"],
+      "answer": "Theory of relativity",
+      "difficulty": "easy",
+      "explanation": "Einstein is best known for developing the theory of relativity, as stated in the introduction."
+    },
+    {
+      "question": "In which year did Einstein receive the Nobel Prize in Physics?",
+      "options": ["1905", "1915", "1921", "1933"],
+      "answer": "1921",
+      "difficulty": "hard",
+      "explanation": "Einstein received the Nobel Prize in Physics in 1921, mentioned in the Nobel Prize section."
+    }
+  ],
+  "related_topics": ["Theory of relativity", "Quantum mechanics", "E=mc²", "Photoelectric effect", "Nobel Prize in Physics"],
+  "created_at": "2026-01-09T22:00:00"
+}

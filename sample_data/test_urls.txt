@@ -1,0 +1,26 @@
+# Tested Wikipedia URLs for AI Wiki Quiz Generator
+
+## Science & Technology
+https://en.wikipedia.org/wiki/Artificial_intelligence
+https://en.wikipedia.org/wiki/Python_(programming_language)
+https://en.wikipedia.org/wiki/Machine_learning
+https://en.wikipedia.org/wiki/Quantum_computing
+
+## Historical Figures
+https://en.wikipedia.org/wiki/Alan_Turing
+https://en.wikipedia.org/wiki/Albert_Einstein
+https://en.wikipedia.org/wiki/Marie_Curie
+https://en.wikipedia.org/wiki/Isaac_Newton
+
+## Science
+https://en.wikipedia.org/wiki/Black_hole
+https://en.wikipedia.org/wiki/DNA
+https://en.wikipedia.org/wiki/Evolution
+
+## History
+https://en.wikipedia.org/wiki/World_War_II
+https://en.wikipedia.org/wiki/Ancient_Egypt
+
+## Geography
+https://en.wikipedia.org/wiki/Mount_Everest
+https://en.wikipedia.org/wiki/Amazon_rainforest
